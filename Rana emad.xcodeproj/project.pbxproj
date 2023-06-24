@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		658982672A46E337002A33F2 /* Rana_emadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658982662A46E337002A33F2 /* Rana_emadApp.swift */; };
+		658982692A46E337002A33F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658982682A46E337002A33F2 /* ContentView.swift */; };
+		6589826B2A46E339002A33F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6589826A2A46E339002A33F2 /* Assets.xcassets */; };
+		6589826F2A46E339002A33F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6589826E2A46E339002A33F2 /* Preview Assets.xcassets */; };
+		658982792A46E339002A33F2 /* Rana_emadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658982782A46E339002A33F2 /* Rana_emadTests.swift */; };
+		658982832A46E339002A33F2 /* Rana_emadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658982822A46E339002A33F2 /* Rana_emadUITests.swift */; };
+		658982852A46E339002A33F2 /* Rana_emadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658982842A46E339002A33F2 /* Rana_emadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		658982752A46E339002A33F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6589825B2A46E337002A33F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658982622A46E337002A33F2;
+			remoteInfo = "Rana emad";
+		};
+		6589827F2A46E339002A33F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6589825B2A46E337002A33F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658982622A46E337002A33F2;
+			remoteInfo = "Rana emad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		658982632A46E337002A33F2 /* Rana emad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rana emad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658982662A46E337002A33F2 /* Rana_emadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rana_emadApp.swift; sourceTree = "<group>"; };
+		658982682A46E337002A33F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6589826A2A46E339002A33F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6589826C2A46E339002A33F2 /* Rana_emad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rana_emad.entitlements; sourceTree = "<group>"; };
+		6589826E2A46E339002A33F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		658982742A46E339002A33F2 /* Rana emadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rana emadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658982782A46E339002A33F2 /* Rana_emadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rana_emadTests.swift; sourceTree = "<group>"; };
+		6589827E2A46E339002A33F2 /* Rana emadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rana emadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658982822A46E339002A33F2 /* Rana_emadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rana_emadUITests.swift; sourceTree = "<group>"; };
+		658982842A46E339002A33F2 /* Rana_emadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rana_emadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658982602A46E337002A33F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658982712A46E339002A33F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6589827B2A46E339002A33F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6589825A2A46E337002A33F2 = {
+			isa = PBXGroup;
+			children = (
+				658982652A46E337002A33F2 /* Rana emad */,
+				658982772A46E339002A33F2 /* Rana emadTests */,
+				658982812A46E339002A33F2 /* Rana emadUITests */,
+				658982642A46E337002A33F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		658982642A46E337002A33F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658982632A46E337002A33F2 /* Rana emad.app */,
+				658982742A46E339002A33F2 /* Rana emadTests.xctest */,
+				6589827E2A46E339002A33F2 /* Rana emadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658982652A46E337002A33F2 /* Rana emad */ = {
+			isa = PBXGroup;
+			children = (
+				658982662A46E337002A33F2 /* Rana_emadApp.swift */,
+				658982682A46E337002A33F2 /* ContentView.swift */,
+				6589826A2A46E339002A33F2 /* Assets.xcassets */,
+				6589826C2A46E339002A33F2 /* Rana_emad.entitlements */,
+				6589826D2A46E339002A33F2 /* Preview Content */,
+			);
+			path = "Rana emad";
+			sourceTree = "<group>";
+		};
+		6589826D2A46E339002A33F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6589826E2A46E339002A33F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		658982772A46E339002A33F2 /* Rana emadTests */ = {
+			isa = PBXGroup;
+			children = (
+				658982782A46E339002A33F2 /* Rana_emadTests.swift */,
+			);
+			path = "Rana emadTests";
+			sourceTree = "<group>";
+		};
+		658982812A46E339002A33F2 /* Rana emadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				658982822A46E339002A33F2 /* Rana_emadUITests.swift */,
+				658982842A46E339002A33F2 /* Rana_emadUITestsLaunchTests.swift */,
+			);
+			path = "Rana emadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658982622A46E337002A33F2 /* Rana emad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658982882A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emad" */;
+			buildPhases = (
+				6589825F2A46E337002A33F2 /* Sources */,
+				658982602A46E337002A33F2 /* Frameworks */,
+				658982612A46E337002A33F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rana emad";
+			productName = "Rana emad";
+			productReference = 658982632A46E337002A33F2 /* Rana emad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		658982732A46E339002A33F2 /* Rana emadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6589828B2A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emadTests" */;
+			buildPhases = (
+				658982702A46E339002A33F2 /* Sources */,
+				658982712A46E339002A33F2 /* Frameworks */,
+				658982722A46E339002A33F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658982762A46E339002A33F2 /* PBXTargetDependency */,
+			);
+			name = "Rana emadTests";
+			productName = "Rana emadTests";
+			productReference = 658982742A46E339002A33F2 /* Rana emadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6589827D2A46E339002A33F2 /* Rana emadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6589828E2A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emadUITests" */;
+			buildPhases = (
+				6589827A2A46E339002A33F2 /* Sources */,
+				6589827B2A46E339002A33F2 /* Frameworks */,
+				6589827C2A46E339002A33F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658982802A46E339002A33F2 /* PBXTargetDependency */,
+			);
+			name = "Rana emadUITests";
+			productName = "Rana emadUITests";
+			productReference = 6589827E2A46E339002A33F2 /* Rana emadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6589825B2A46E337002A33F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					658982622A46E337002A33F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					658982732A46E339002A33F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 658982622A46E337002A33F2;
+					};
+					6589827D2A46E339002A33F2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 658982622A46E337002A33F2;
+					};
+				};
+			};
+			buildConfigurationList = 6589825E2A46E337002A33F2 /* Build configuration list for PBXProject "Rana emad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6589825A2A46E337002A33F2;
+			productRefGroup = 658982642A46E337002A33F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658982622A46E337002A33F2 /* Rana emad */,
+				658982732A46E339002A33F2 /* Rana emadTests */,
+				6589827D2A46E339002A33F2 /* Rana emadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658982612A46E337002A33F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6589826F2A46E339002A33F2 /* Preview Assets.xcassets in Resources */,
+				6589826B2A46E339002A33F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658982722A46E339002A33F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6589827C2A46E339002A33F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6589825F2A46E337002A33F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658982692A46E337002A33F2 /* ContentView.swift in Sources */,
+				658982672A46E337002A33F2 /* Rana_emadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658982702A46E339002A33F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658982792A46E339002A33F2 /* Rana_emadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6589827A2A46E339002A33F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658982832A46E339002A33F2 /* Rana_emadUITests.swift in Sources */,
+				658982852A46E339002A33F2 /* Rana_emadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		658982762A46E339002A33F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658982622A46E337002A33F2 /* Rana emad */;
+			targetProxy = 658982752A46E339002A33F2 /* PBXContainerItemProxy */;
+		};
+		658982802A46E339002A33F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658982622A46E337002A33F2 /* Rana emad */;
+			targetProxy = 6589827F2A46E339002A33F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		658982862A46E339002A33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		658982872A46E339002A33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		658982892A46E339002A33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rana emad/Rana_emad.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rana emad/Preview Content\"";
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6589828A2A46E339002A33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rana emad/Rana_emad.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rana emad/Preview Content\"";
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6589828C2A46E339002A33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rana emad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rana emad";
+			};
+			name = Debug;
+		};
+		6589828D2A46E339002A33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rana emad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rana emad";
+			};
+			name = Release;
+		};
+		6589828F2A46E339002A33F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rana emad";
+			};
+			name = Debug;
+		};
+		658982902A46E339002A33F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4S6R6L9X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rana.Rana-emadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rana emad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6589825E2A46E337002A33F2 /* Build configuration list for PBXProject "Rana emad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658982862A46E339002A33F2 /* Debug */,
+				658982872A46E339002A33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658982882A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658982892A46E339002A33F2 /* Debug */,
+				6589828A2A46E339002A33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6589828B2A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6589828C2A46E339002A33F2 /* Debug */,
+				6589828D2A46E339002A33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6589828E2A46E339002A33F2 /* Build configuration list for PBXNativeTarget "Rana emadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6589828F2A46E339002A33F2 /* Debug */,
+				658982902A46E339002A33F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6589825B2A46E337002A33F2 /* Project object */;
+}
